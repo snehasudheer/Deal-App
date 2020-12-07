@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="44" viewBox="0 0 170 44">
+  <g id="Logo" transform="translate(0 -11)">
+    <text id="DealS" transform="translate(33 49)" fill="#fff" font-size="22" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">DEALS</tspan></text>
+    <text id="_App" data-name=" App" transform="translate(114 49)" fill="#f74b5a" font-size="22" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0" xml:space="preserve"> APP</tspan></text>
+    <g id="Logo_Vector" data-name="Logo Vector" transform="translate(-562.63 -114.125)">
+      <g id="Map" transform="translate(0)">
+        <path id="Path_19" data-name="Path 19" d="M14.026,52.826a29.68,29.68,0,0,1,9.95-19.671c9.656-8.584,2.4-23.03-9.95-23.03" transform="translate(563 115)" fill="#f74b5a"/>
+        <path id="Path_20" data-name="Path 20" d="M28.439,52.826a29.68,29.68,0,0,0-9.95-19.671c-9.656-8.584-2.4-23.03,9.95-23.03" transform="translate(548.604 115)" fill="#f74b5a"/>
+      </g>
+      <g id="Shop" transform="translate(550.206 204)">
+        <path id="Path_21" data-name="Path 21" d="M5.4,24.835c-2.826.923-1.785-2.252-1.785-2.252l2.911-6.948h7.964V32.113H5.4Z" transform="translate(12 -90)" fill="#fff"/>
+        <path id="Path_22" data-name="Path 22" d="M12.514,24.835c2.826.923,1.785-2.252,1.785-2.252l-2.911-6.948H3.424V32.113h9.09Z" transform="translate(23 -90)" fill="#fff"/>
+      </g>
+      <g id="Group_47" data-name="Group 47" transform="translate(-1)">
+        <path id="Path_23" data-name="Path 23" d="M500.87,321.179h1.725l-1.725,5.375-.033,1.818s-1.325.863-2.092-.018a1.4,1.4,0,0,1,0-1.8Z" transform="translate(71 -190)" fill="#f74b5a"/>
+        <path id="Path_24" data-name="Path 24" d="M504.205,321.115l1.679-.006-.61,5.4V328.3s-1.506.767-1.908,0a1.954,1.954,0,0,1,0-1.6Z" transform="translate(71 -189.984)" fill="#f74b5a"/>
+        <path id="Path_25" data-name="Path 25" d="M500.129,321.179H498.4l1.725,5.375.033,1.818s1.325.863,2.092-.018a1.4,1.4,0,0,0,0-1.8Z" transform="translate(83.289 -190)" fill="#f74b5a"/>
+        <path id="Path_26" data-name="Path 26" d="M504.866,321.115l-1.679-.006.61,5.4V328.3s1.506.767,1.908,0a1.954,1.954,0,0,0,0-1.6Z" transform="translate(75.216 -189.984)" fill="#f74b5a"/>
+      </g>
+    </g>
+  </g>
+</svg>
