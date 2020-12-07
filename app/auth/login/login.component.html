@@ -1,0 +1,56 @@
+<!-- <div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <div class="fadeIn first">
+      
+    </div>
+
+    <form (ngSubmit)="onSignIn(signin)" #signin="ngForm" >
+      <input type="text" #username ngModel class="fadeIn second" name="username" placeholder="username">
+      <input type="password" #password ngModel class="fadeIn third" name="password" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+    <span class="error" *ngIf="errorMessage">{{errorMessage}}</span>
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div> -->
+<div class="wrapper">
+<div class="shapes">
+  <div class="blueShape"></div>
+  <div class="redShape"></div>
+</div>
+<!-- Section Login-->
+<section id="login">
+  <img src="assets/images/DealLogo.svg" alt="Welcome to Deal App">
+  <form (ngSubmit)="onSignIn(signin)" #signin="ngForm">
+    <div class="form-group">
+      <label for="exampleInputEmail1">USER NAME</label>
+      <input [ngClass]="{ 'is-invalid': signin.submitted && usernameInput.invalid }" type="email" #usernameInput="ngModel" [(ngModel)]="username" class="form-control" id="exampleInputEmail1" name="usernameInput" placeholder="eg: johndoe@dealapp.com" required>
+      <div *ngIf="signin.submitted && usernameInput.invalid" class="invalid-feedback">
+        <div *ngIf="usernameInput.errors.required"> Please enter the username</div>
+    
+</div>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">PASSWORD</label>
+      <input [ngClass]="{ 'is-invalid': signin.submitted && passwordInput.invalid }" type="password" #passwordInput="ngModel" [(ngModel)]="password" class="form-control" id="exampleInputPassword1" name="passwordInput" placeholder="Password" required>
+      <div *ngIf="signin.submitted && passwordInput.invalid" class="invalid-feedback">
+    
+        <div *ngIf="passwordInput.errors.required"> Please enter the password</div>
+    
+</div>
+    </div>
+
+
+
+<div>
+    <span style="color:red" class="error" *ngIf="errorMessage">{{errorMessage}}</span>
+</div>
+    <button data-hover="Login" class="primaryBtn" type="submit"><div>Login</div></button>
+    <p><a href="#" title="Click here to change the password">Forgot Password?</a></p>
+  </form>
+</section>
+</div>
